@@ -30,7 +30,7 @@ export interface InstanceResultStats {
   failures: number;
   wallClockStartedAt: string;
   wallClockEndedAt: string;
-  wallClockDuration: number;
+  wallClockDuration: number | null;
 }
 
 export interface ReporterStats {
